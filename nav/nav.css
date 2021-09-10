@@ -5,6 +5,7 @@
 body{
     font-size: 16px;
     line-height: 1.5;
+    font-family: 'Azeret Mono', monospace;
 }
 p{
     font-size: 1rem;
