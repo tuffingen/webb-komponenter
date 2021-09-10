@@ -1,3 +1,10 @@
+nav ul li a{
+    color: rgb(0, 0, 0);
+}
+nav .navbar-brand{
+    color: rgb(0, 0, 0);
+}
+
 body{
     font-family: 'Azeret Mono', monospace;
 }
@@ -39,7 +46,7 @@ body{
     height: 4rem;
     color: white;
     
-}
+}   
 
 .cta button:hover{
     background-color: rgb(92, 33, 146);

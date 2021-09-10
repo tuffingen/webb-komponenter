@@ -1,0 +1,45 @@
+.cardz{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    
+}
+.cardz h1{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.cardz p{
+    margin: 1rem;
+}
+
+.cardz img{
+    max-width: 100%;
+}
+
+.card{
+    background-color: turquoise;
+    min-height: 13rem;
+    max-width: 15rem;
+    
+}
+
+
+.cardz button{
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    padding: 4px;
+    border: none;
+    background-color: blueviolet;
+    color: blue;
+    cursor: pointer;
+    font-weight: 600;
+}
+.cardz button:hover{
+    background-color: rgb(92, 33, 146);
+}
+
