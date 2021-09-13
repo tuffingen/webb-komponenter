@@ -1,0 +1,31 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column  ;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+
+}
+
+.footergroup{
+    display: flex;
+    justify-content: space-between;
+}
+
