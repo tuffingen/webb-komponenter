@@ -29,3 +29,7 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.cta>button{
+    padding: 0;
+    margin: 0;
+}
