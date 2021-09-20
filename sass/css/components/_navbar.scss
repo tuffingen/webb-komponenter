@@ -1,0 +1,33 @@
+.navbar{
+    
+        min-height: 3rem;
+        background-color: #00ffff;
+        font-size: 1.6rem;
+    
+    
+        &-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+        }
+
+
+        @media screen and (max-width: 48rem) {
+            flex-direction: column;
+        }
+    }
+    
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    &-item {
+        padding-left: 1rem;
+    }
+    
+}
+

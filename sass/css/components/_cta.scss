@@ -1,0 +1,39 @@
+.cta{
+    background-image: url(../images/TE91.jpg);
+    background-size: cover;
+    padding-left: 1rem;   
+    
+    h1{
+        font-size: 4rem;
+        font-weight: 900;
+        color: red;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        line-height: 1;
+    }
+    p{
+        font-size: 2rem;
+        color: rgb(194, 25, 25);
+    }
+    button{
+        height: auto;
+        color: blue;
+        background-color: blueviolet;
+        font-size: 3rem;
+        border-radius: 12px;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 98%;
+        cursor: pointer;
+
+        &:active{
+            height: 4rem;
+            color: white;
+        }
+        &:hover{
+            background-color: rgb(92, 33, 146);
+        }
+    }
+    
+}

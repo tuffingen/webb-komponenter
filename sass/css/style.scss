@@ -1,0 +1,16 @@
+
+$container-padding: 1rem;
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+@import "utilities/container";
+@import "utilities/reset";
+@import "components/navbar";
+@import "components/cta";
+@import "components/kort";
+@import "components/footer";

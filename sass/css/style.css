@@ -1,0 +1,146 @@
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  min-height: 3rem;
+  background-color: #00ffff;
+  font-size: 1.6rem;
+}
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-inner a {
+  text-decoration: none;
+}
+@media screen and (max-width: 48rem) {
+  .navbar-inner {
+    flex-direction: column;
+  }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  padding-left: 1rem;
+}
+
+.cta {
+  background-image: url(../images/TE91.jpg);
+  background-size: cover;
+  padding-left: 1rem;
+}
+.cta h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: red;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  line-height: 1;
+}
+.cta p {
+  font-size: 2rem;
+  color: #c21919;
+}
+.cta button {
+  height: auto;
+  color: blue;
+  background-color: blueviolet;
+  font-size: 3rem;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 98%;
+  cursor: pointer;
+}
+.cta button:active {
+  height: 4rem;
+  color: white;
+}
+.cta button:hover {
+  background-color: #5c2192;
+}
+
+.cardz {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.cardz h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.cardz p {
+  margin: 1rem;
+}
+.cardz img {
+  max-width: 100%;
+}
+.cardz button {
+  float: right;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  padding: 4px;
+  border: none;
+  background-color: blueviolet;
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+}
+.cardz buttonhover {
+  background-color: #5c2192;
+}
+
+.card {
+  background-color: turquoise;
+  min-height: 13rem;
+  max-width: 15rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footer p {
+  color: aliceblue;
+}
+
+.footergroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
